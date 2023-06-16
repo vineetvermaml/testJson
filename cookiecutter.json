@@ -1,5 +1,6 @@
 {
     "author_name": "Vineet Verma",
     "folder_name":"cookiecutter_folder",
-    "file_name":"cookiecutter_file"
+    "file_name":"cookiecutter_file",
+    "json_files_path":"jsonFiles"
 }
