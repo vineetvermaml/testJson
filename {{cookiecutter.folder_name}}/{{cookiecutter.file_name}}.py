@@ -99,7 +99,7 @@ def create_flask_api(collection):
 database_name = 'JsonRepo'  # provide the database name
 collection_name = 'JsonFiles'  # provide the collection name
 # folder_path = 'jsonFiles'  # provide the relative/ absolute folder path
-folder_path = cookiecutter.json_files_path
+folder_path = 'jsonFiles'
 while not os.path.isdir(folder_path):
     print("Path does not exist. Please enter a valid path.")
 
